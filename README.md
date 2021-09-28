@@ -1,0 +1,1 @@
+Repo ini untuk menampung semua tech assignment, terimakasih

@@ -170,7 +170,6 @@
           elCommentSection.classList.remove('d-none');
       })
 
-
       elBtnSubmit.addEventListener('click',function (event) {
           event.preventDefault();
 
@@ -182,31 +181,21 @@
           div2.className = "fw-bold text-capitalize";
           div.appendChild(div2);
           child.appendChild(div);
-
      
           child.querySelector('.fw-bold').innerHTML = elInputUsername.value;
           let comment = document.createTextNode(` ${elInputComment.value} `);
           child.firstElementChild.appendChild(comment);
-
           
           elCommentList.insertBefore(child, elCommentList.childNodes[0]);
-
-       
-          elCommentSection.classList.add('d-none');
-
-          
+          elCommentSection.classList.add('d-none');         
           elCommentForm.reset();
       })
 
       
-      elBtnCancel.addEventListener('click', function(){
-          
+      elBtnCancel.addEventListener('click', function(){          
           elCommentSection.classList.add('d-none');
-
-       
           elCommentForm.reset();
-      
-      })
+      } )
     </script>
   </body>
 </html>
