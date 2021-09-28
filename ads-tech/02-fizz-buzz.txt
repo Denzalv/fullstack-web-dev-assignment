@@ -1,0 +1,20 @@
+Title :Program Fizz-buzz
+Declaration :
+var i, n : number;
+
+implementation:
+START
+INPUT n
+DO i = 1 to n
+RUN  i
+if i is or multiples of 3 	//this can use i % 3
+	THEN DISPLAY "Fizz"
+	CONTINUE
+   else if i is or multiples of 5 	//this can use i % 5
+	kemudian DISPLAY "Buzz"
+	CONTINUE
+   else if i is multiples 3 and 5	//this can use i % 3 and i % 5
+	THEN DISPLAY "FizzBuzz"
+	CONTINUE
+   else DISPLAY i 
+END

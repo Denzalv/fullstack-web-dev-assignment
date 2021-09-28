@@ -1,0 +1,16 @@
+Title : Program thermometer
+Declaration :
+var n : number; 
+var type (fahrenhiet, kelvin, celcius) : String;
+
+Implementation :
+START
+INPUT n
+CHOOSE type
+
+if type is Fahrenheit
+	THEN DISPLAY ← (n - 32)*(5/9) 
+   else if type is Kelvin
+	THEN DISPLAY ← (n - 273.15)
+   else DISPLAY ← n
+END

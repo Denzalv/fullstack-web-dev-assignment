@@ -1,0 +1,46 @@
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/deni (master)
+$ git log --graph
+*   commit 12184cf2c4bae1afccc0726c94dbb05da1136d09 (HEAD -> master, git-portofolio/master)
+|\  Merge: dd1442f 2f8ee01
+| | Author: Deni Alpiana <Denzalv01@gmail.com>
+| | Date:   Tue Sep 21 16:47:24 2021 +0700
+| |
+| |     Merge branch 'cv'
+| |
+| * commit 2f8ee014b2f4f47e1172213a97d72492652d4be1 (cv)
+| | Author: Deni Alpiana <Denzalv01@gmail.com>
+| | Date:   Tue Sep 21 16:42:52 2021 +0700
+| |
+| |     Menambahkan perusahaan ketiga
+| |
+| * commit 122f2a299cd10fbea9d49a77274d1096e38c462b
+| | Author: Deni Alpiana <Denzalv01@gmail.com>
+| | Date:   Tue Sep 21 16:41:55 2021 +0700
+| |
+| |     Menambahkan perusahaan kedua
+| |
+| * commit 92fde5253979fde0d902aa1d03d7a95e0e60d928
+| | Author: Deni Alpiana <Denzalv01@gmail.com>
+| | Date:   Tue Sep 21 16:40:40 2021 +0700
+| |
+| |     Menambahkan perusahaan pertama
+| |
+| * commit c256d068f633b53f23e9be251f1d2803fc10d95d
+| | Author: Deni Alpiana <Denzalv01@gmail.com>
+| | Date:   Tue Sep 21 16:36:59 2021 +0700
+| |
+| |     Inisialisasi CV
+| |
+* | commit dd1442f60997fcaaa15496f49f607c946b19ca17
+|/  Author: Deni Alpiana <Denzalv01@gmail.com>
+|   Date:   Tue Sep 21 16:45:41 2021 +0700
+|
+|       update master pertama
+|
+* commit 5dd45ee4917b3f38eb084f2dd873026ef39fab9b
+  Author: Deni Alpiana <Denzalv01@gmail.com>
+  Date:   Tue Sep 21 16:30:31 2021 +0700
+
+      inisialisasi Git Repositiry
+

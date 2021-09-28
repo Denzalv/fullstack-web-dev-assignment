@@ -1,0 +1,18 @@
+Title : Skilvul-Grading
+Declaration:
+var originalgrade, finalgrade:number ;
+
+Implementation
+START
+INPUT originalgrade;
+IF originalgrade < 68 THEN
+  DISPLAY originalgrade
+ELSE IF originalgrade % 5 = 0 
+THEN DISPLAY originalgrade
+ELSE IF (originalgrade+2) % 5 = 0 
+THEN originalgrade = originalgrade+2
+  DISPLAY originalgrade
+ELSE IF (originalgrade+1) % 5 = 0 
+THEN originalgrade = originalgrade+1
+  DISPLAY originalgrade
+END

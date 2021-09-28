@@ -1,0 +1,87 @@
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH
+$ git clone https://github.com/Denzalv/tech4impact-students-bio.git
+Cloning into 'tech4impact-students-bio'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH
+$ cd tech4impact-students-bio
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git checkout -b deni-alpiana
+Switched to a new branch 'deni-alpiana'
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (deni-alpiana)
+$ touch denialpiana.md
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (deni-alpiana)
+$ vim denialpiana.md
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (deni-alpiana)
+$ git add .
+warning: LF will be replaced by CRLF in denialpiana.md.
+The file will have its original line endings in your working directory
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (deni-alpiana)
+$
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (deni-alpiana)
+$ git commit -m "denialpiana"
+[deni-alpiana 0f65827] denialpiana
+ 1 file changed, 3 insertions(+)
+ create mode 100644 denialpiana.md
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (deni-alpiana)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git merge deni-alpiana
+Updating 165aa3b..0f65827
+Fast-forward
+ denialpiana.md | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 denialpiana.md
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git push -u Nama Lengkap: David Winalda
+fatal: invalid refspec 'Lengkap:'
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ Umur: 27
+bash: Umur:: command not found
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git push -u tech4impact-students-bio master
+fatal: 'tech4impact-students-bio' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git add remote tech4impact-students-bio
+fatal: pathspec 'remote' did not match any files
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git remote add tech4impact-students-bio https://github.com/Denzalv/tech4impact-students-bio.git
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$ git push -u tech4impact-students-bio master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 377 bytes | 188.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Denzalv/tech4impact-students-bio.git
+   165aa3b..0f65827  master -> master
+Branch 'master' set up to track remote branch 'master' from 'tech4impact-students-bio'.
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/tech4impact-students-bio (master)
+$

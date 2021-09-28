@@ -1,0 +1,93 @@
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH
+$ mkdir git-basic
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH
+$ cd git-basic
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic
+$ touch first.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic
+$ git init
+Initialized empty Git repository in E:/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic/.git/
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git remote add git-basic https://github.com/Denzalv/git-basic.git
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git add .
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git commit -m "adding first.txt"
+[master (root-commit) daefb35] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git log
+commit daefb35bccfc1e9383404951be8db82229c0e0b0 (HEAD -> master)
+Author: Deni Alpiana <Denzalv01@gmail.com>
+Date:   Tue Sep 21 16:16:45 2021 +0700
+
+    adding first.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ touch second.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git add .
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git commit -m "adding second.txt"
+[master e1da1d3] adding second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git rm first.txt
+rm 'first.txt'
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git add .
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git commit -m "removing first.txt"
+[master e2cc973] removing first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 first.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git push -u git-basic master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 647 bytes | 215.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Denzalv/git-basic.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'git-basic'.
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$ git log
+commit e2cc9730239c75b8cec2c593fc4bf59d5105ed47 (HEAD -> master, git-basic/master)
+Author: Deni Alpiana <Denzalv01@gmail.com>
+Date:   Tue Sep 21 16:19:17 2021 +0700
+
+    removing first.txt
+
+commit e1da1d395b6f975024b29ec6fc81f4a7315f4fc8
+Author: Deni Alpiana <Denzalv01@gmail.com>
+Date:   Tue Sep 21 16:18:25 2021 +0700
+
+    adding second.txt
+
+commit daefb35bccfc1e9383404951be8db82229c0e0b0
+Author: Deni Alpiana <Denzalv01@gmail.com>
+Date:   Tue Sep 21 16:16:45 2021 +0700
+
+    adding first.txt
+
+LENOVO@DESKTOP-MVA6N2V MINGW64 /e/KULIAH/S5 - SKILVUL/FULL STACK WEB DEV/TUGAS/GIT/GIT TECH/git-basic (master)
+$
