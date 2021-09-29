@@ -3,9 +3,9 @@
 /// EDIT HERE
 for (i=1; i<=100; i++) { //mulai perulangan 1-100
     let bill = 0 //penanda
-    for(p=i; p>=1; p=p-1){ 
+    for(p=i; p>=1; p--){ 
       if(i%p === 0){
-        bill = bill + 1
+        bill++
       }
     }
     if(bill === 2){
@@ -25,9 +25,9 @@ while (primeCounter <=250) {
 	primeCounter++
 
 	let bill = 0;
-	for (p = primeCounter; p>= 1 ; p=p-1){
+	for (p = primeCounter; p>= 1 ; p--){
 		if(primeCounter % p ===0){
-			bill = bill + 1
+			bill++
 		}
 
 	}
