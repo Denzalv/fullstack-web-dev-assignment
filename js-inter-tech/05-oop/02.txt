@@ -1,0 +1,20 @@
+1. Apa itu Encapsulation? Mengapa kita membutuhkannya?
+--> Enkapsulasi adalah sebuah peroses pemaketan / penyatu data bersama metode – metodenya,
+dimana 'hal ini bermanfaat untuk menyembunyikan rincian – rincian implementasi dari pemakai'.
+
+2. Apa itu Abstraction? Mengapa kita membutuhkannya?
+--> Abstract class adalah kelas murni (tanpa objek) dan tidak boleh memiliki objek
+(tidak boleh ada instansiasi) serta method-method yang abstract harus disempurnakan 
+oleh kelas turunannya melalui override. Kelas ini digunakan 'sebagai basis bagi penurunan kelas kelas lainnnya,
+sehingga tidak dapat diinstansiasi secara langsung menjadi objek'.
+
+3. Apa itu Inheritance? Mengapa kita membutuhkannya?
+--> Inheritance atau Pewarisan/Penurunan adalah konsep pemrograman dimana sebuah class dapat 'menurunkan' 
+property dan method yang dimilikinya kepada class lain. Konsep inheritance digunakan 'untuk memanfaatkan 
+fitur 'code reuse' untuk menghindari duplikasi kode program'.
+
+4. Apa itu Polymorpishm? Mengapa kita membutuhkannya?
+--> Polimorfisme adalah sebuah prinsip di mana class dapat memiliki banyak “bentuk” method yang berbeda-beda meskipun namanya sama.
+ini dibutuhkan karena 'Polymorphism dapat beradaptasi dengan metode apapun yang diimplementasikan pada objek tersebut, 
+dan setiap class memiliki interpretasinya tersendiri terhadap interfacenya'.
+
