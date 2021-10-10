@@ -5,11 +5,11 @@ function getAverage(arr) {
     let sum = 0;
     let hasil = [];
 
-    arr.forEach(function(value){
+    arr.forEach((value) =>{
         sum = sum + value;
     })
     let avg = sum/arr.length;
-    arr.forEach(function(value){
+    arr.forEach((value) =>{
         if(value > avg){
             hasil.push(value);
         }
