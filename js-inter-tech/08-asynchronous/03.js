@@ -6,9 +6,11 @@ const getGitHubUser = async(username) => {
         const url = await fetch(`https://api.github.com/users/${username}`);
         let response = await url.json();
         if (response?.login) {
-            return `object`;
+            return response;
         }
-    } catch (error) {
+
+    } 
+    catch (error) {
         console.log(error);
     }
     return "Not Found"
