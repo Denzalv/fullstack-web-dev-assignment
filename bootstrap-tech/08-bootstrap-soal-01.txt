@@ -1,0 +1,10 @@
+1. Apa itu CSS Framework?
+-->  Pustaka atau Template yang memungkinkan untuk mendesain web menjadi lebih mudah dan lebih memenuhi standar menggunakan bahasa CSS.
+2. Apakah bootstrap satu-satunya CSS Framework yang dapat kita gunakan?
+--> Tidak, masih banyak sekali CSS Framwork di luar sana
+3. Sebutkan beberapa CSS Framework selain Bootstrap
+--> Laravel, Tailwind, Foundation, Materialize dan masih banyak  lagi
+4. Bagaimana tata cara penggunaan Bootstrap?
+--> ada beberpaa cara, yaitu :
+1. mengekstrak file bootstrap ke file projek (offline)
+2. memanggil bootstrap secara online dengan menggunakan CDN(online)
