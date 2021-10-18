@@ -17,6 +17,6 @@ ex: Ukurannya relatif terhadap tinggi dari karakter "x" kecil font yang sedang a
 --> merupakan titik-titik yang dipilih untuk mengubah layout suatu design
 cara membuat breakpoint adalah dengan mengatur batas lebar suatu screen, bisa di mulai dari terbesar atau terkecil, sesuai dengan keinginan kita 
 4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
---> 
+--> Flexbox
 5. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
---> 
+--> Grid
