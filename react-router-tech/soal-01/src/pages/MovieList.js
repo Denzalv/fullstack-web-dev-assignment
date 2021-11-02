@@ -15,7 +15,7 @@ const MovieList = () => {
   const filter = {
     show: shows[0],
     category: categories[0],
-    sort: fields[0]
+    sort: fields[0],
   };
 
   // Variable yang akan menyimpan data-data yang sudah difilter menggunakan variable filter diatas
