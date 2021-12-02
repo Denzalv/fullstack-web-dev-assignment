@@ -50,3 +50,22 @@ SELECT id AS ID, author1 AS A1, author2 AS A2, author3 AS A3 FROM books;
 -- Find id --
 SELECT * FROM books WHERE id = 3;
 
+-- Use Operator AND --
+SELECT * FROM books WHERE id = 1 AND title = 'Planet';
+
+-- Use Operator OR --
+SELECT * FROM books WHERE id = 2 OR title = 'FESOCIETY';
+
+-- Use Operator NOT --
+SELECT * FROM books WHERE NOT author3 = 'Saturnus';
+
+-- Ascending by id --
+SELECT * FROM books ORDER BY id ASC;
+
+-- Limit only 2 row --
+SELECT * FROM books LIMIT 2;
+
+
+
+
+
