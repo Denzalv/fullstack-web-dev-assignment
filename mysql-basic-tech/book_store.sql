@@ -20,9 +20,24 @@ CREATE table books (
 	description TEXT,
 	place_sell VARCHAR(3),
 	stock INT DEFAULT 0,
-	creation_date DATETIME DEFAULT CURRENT_TIMESTAMP(),
+	creation_date DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ,
 	PRIMARY KEY (id)
 );
 
+-- Update Column --
+ALTER TABLE books
+  ADD price INT default 0,
+  ADD status ENUM
+  ('available','out of stock','limited'),
+  DROP place_sell
+;
+
+
 -- Insert Data --
-INSERT INTO bookstore (id, name, age) VALUES(1, 'Terra', 2);
+INSERT INTO books
+  (author1, author2, author3, title, description, stock, price, status)
+  VALUES
+  ('Merkurius','Venus','Bumi','Planet','Ini adalah nama nama planet', 100, 10000,'available'),
+  ('Mars','Jupiter','Saturnus','PlanetV2','Ini adalah nama nama planet lanjutan', 1000, 100000,'available'),
+  ('Bumi','itu','Datar','FESOCIETY','Ini adalah Fakta yang tersembunyi', 10000, 1000000,'limited')
+;
