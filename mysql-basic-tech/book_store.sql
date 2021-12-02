@@ -65,7 +65,13 @@ SELECT * FROM books ORDER BY id ASC;
 -- Limit only 2 row --
 SELECT * FROM books LIMIT 2;
 
+-- Update author1 & price --
+UPDATE books
+  SET
+  author3 = 'Earth',
+  price = 666
+  WHERE id =
+;
 
-
-
-
+-- Delete one row --
+DELETE FROM books WHERE id = 2;
