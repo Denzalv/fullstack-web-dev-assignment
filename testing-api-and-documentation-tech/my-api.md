@@ -1,20 +1,2 @@
-# Result
-- Testing API and Documentation
-## Post
-#
-
-## Get All
-#
-
-## Get by ID
-#
-
-## Update
-#
-
-## Delete
-#
-
-## Documentation
-#
-Link : 
+# Documentation
+Link : https://documenter.getpostman.com/view/18634031/UVR4NqBw
