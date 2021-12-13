@@ -18,6 +18,6 @@
 ## 2. Soal - 02
 
 - Middleware Logger
-  ![image](https://user-images.githubusercontent.com/45682334/145820810-ab2f618e-3520-4747-98c9-3e2836cd13b8.png)
+  ![image](https://user-images.githubusercontent.com/45682334/145825420-3b66847d-b9b3-40ff-975b-348952052c2e.png)
 - Middleware Post Checker
   ![image](https://user-images.githubusercontent.com/45682334/145816655-3b90bca2-40b7-49b3-b4fa-f8d82689a400.png)
