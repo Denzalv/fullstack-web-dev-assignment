@@ -5,15 +5,15 @@ const sessions = require("express-session");
 const app = express();
 const PORT = 4000;
 
-// creating 24 hours from milliseconds
-const oneDay = 1000 * 60 * 60 * 24;
+// creating one minute 
+const oneMin = 1000 * 60 ;
 
 //session middleware
 app.use(
   sessions({
     secret: "thisismysecrctekeyfhrgfgrfrty84fwir767",
     saveUninitialized: true,
-    cookie: { maxAge: oneDay },
+    cookie: { maxAge: oneMin },
     resave: false,
   })
 );
