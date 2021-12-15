@@ -1,7 +1,7 @@
 # Result
 
 ## URL Heroku
-URL : 
+URL : https://hewan-sequelize-app.herokuapp.com/
 
 ## URL End Point
 1. /hewan GET ALL
