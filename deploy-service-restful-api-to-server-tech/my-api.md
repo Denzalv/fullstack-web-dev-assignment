@@ -10,7 +10,7 @@ URL : https://sequelize-heroku-app.herokuapp.com/
 
 URL: https://github.com/Denzalv/deploy-heroku/
 
-#
+# 
 
 ## URL End Point
 
