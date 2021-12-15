@@ -2,8 +2,6 @@
 
 ## Tugas 2 - Token Based Authentication
 
-#
-
 ## 1. Auth.js
 
 - Login and Get Token

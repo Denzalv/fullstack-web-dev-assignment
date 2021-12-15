@@ -2,8 +2,6 @@
 
 ## Tugas 1 - Session Based Authentication
 
-#
-
 ## 1. App.js
 
 - Login Page
