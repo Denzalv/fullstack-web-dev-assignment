@@ -4,12 +4,8 @@
 URL : 
 
 ## URL End Point
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. /hewan GET ALL
+2. /hewan/:id GET by ID
 
 ## Main Page
 - 
